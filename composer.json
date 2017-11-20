@@ -1,0 +1,25 @@
+{
+  "name": "muhammedv/module-extended-swatch",
+  "description": "Example Magento 2 module that adds ability to update static information gathered from child product.",
+  "require": {
+    "php": "^7.0.0",
+    "magento/framework": "^100.1.0",
+    "magento/module-catalog": "^101.0.0",
+    "magento/module-swatches": "^100.1.0"
+  },
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Muhammed Vatansever",
+      "email": "muhammedv@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Muhammedv\\ExtendedSwatch\\": ""
+    }
+  }
+}

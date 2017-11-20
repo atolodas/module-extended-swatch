@@ -1,0 +1,9 @@
+<script type="text/x-magento-init">
+<?php
+    echo $this->helper('Magento\Framework\Json\Helper\Data')->jsonEncode([
+        '*' => [
+                'Muhammedv_ExtendedSwatch/js/renderer-child-info' => $block->getJsonChildConfig()
+            ]
+         ]);
+    ?>
+</script>
